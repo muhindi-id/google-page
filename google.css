@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(220, 245, 228);
+}
+.media{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    width: 500px;
+    background-color:aliceblue ;
+    margin: auto;
+    align-items: center;
+    border-radius: 50px;
+
+}
+.account{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+#fb,#tw,#insta{
+
+width: 50px;
+}
+.text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#google{
+    width:  100px;
+}
+.button{
+    padding-top: 50px;
+}
+.butt{
+    border-radius: 30px;
+    background-color: white;
+}
+p{
+    font-weight: 400;
+}
